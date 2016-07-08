@@ -27,3 +27,7 @@ Visit chrome://extensions in your browser (or open up the Chrome menu by clickin
 Alternatively, you can drag and drop the directory where your extension files live onto chrome://extensions in your browser to load it.
 
 If the extension is valid, it'll be loaded up and active right away! If it's invalid, an error message will be displayed at the top of the page. Correct the error, and try again.
+
+#How to edit
+
+The manifest.json file relies on the newpage.html file to generate the new tab page content. Simply edit the newpage.html file to customize your new tab page
