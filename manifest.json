@@ -1,0 +1,13 @@
+{
+    "name": "Tabbed Application",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Open a new tab with a specific webpage!!",
+    "permissions": ["contextMenus"],
+    "chrome_url_overrides" : {
+        "newtab": "newpage.html"
+    },
+    "icons": {
+        "128": "icon.png"
+    }
+}
